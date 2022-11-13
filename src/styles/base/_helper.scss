@@ -217,7 +217,7 @@ $fontWeights: 400, 500, 600, 700;
   width: 100% !important;
 }
 
-$maxWidths: 576, 768;
+$maxWidths: 576, 768, 1024, 1200;
 @each $mw in $maxWidths {
   .mw-#{$mw} {
     width: 100%;
